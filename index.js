@@ -4,4 +4,4 @@ var http = require('http');
 http.createServer(function (req, res) {
   res.write('You are  in AWS  Cloud'); //write a response to the client
   res.end(); //end the response
-}).listen(3000);
+}).listen(4000);
